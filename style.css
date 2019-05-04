@@ -1,0 +1,108 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial;
+}
+.topo{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+}
+.oxente{
+    width:5.5vw;
+    align-content: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.menu{
+    height: 10vh;
+    width: 31.5vw;
+    background-color: rgba(60, 58, 61, 0.5);
+    text-align: center;
+    color: white;
+    border: rgba(248, 104, 21, 0.897), 10px;
+    
+    
+
+}
+.texto{
+    color: white;
+    
+}
+.corpo{
+    background-color: rgb(0, 0, 0);
+    height: 82vh;
+    display: flex;
+    align-items: center
+
+}
+.foto{
+    background-color: rgb(255, 255, 255);
+    width: 30vw;
+    height: 45vh;
+    margin-left: 10vw;
+    text-align: center;
+    margin-bottom: 2vh;
+    align-content: center
+}
+.img{
+    margin-top: 2.6vh;
+   
+}
+.propaganda{
+    width: 40vw;
+    height: 50vh;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+
+}
+.texto{
+    height: 40vh;
+    background-color: rgba(112, 113, 114, 0.466);
+    text-align: center;
+    line-height: 4vh;
+    padding: 2%
+}
+.valor{
+    background-color: rgba(219, 107, 32, 0.39);
+    height: 10vh;
+    width: 10vw;
+    margin-left: 28vh;
+    border-radius: 75px / 40px;
+    margin-top: 5vh;
+    text-align: center;
+}
+.barra{
+    background-color: rgba(248, 104, 21, 0.897);
+    display: flex;
+}
+.redes{
+    display: flex;
+    align-items: center;
+    height: 8vh;
+    width: 30vw;
+}
+
+.empresa{
+    height: 8vh;
+    width: 70vw;
+    background-color: rgba(99, 99, 99, 0.534);
+    margin-left: 30vw;
+    text-align: end;
+    color: white;
+    text-align: right
+}
+.ajuste{
+        height: 45px;
+        width: 45px;
+        margin-left: 1vw;
+}
+.logo{
+    padding-right: 2vw;
+    font-weight: bold;   
+}
